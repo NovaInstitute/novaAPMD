@@ -5,7 +5,8 @@ app_ui <- function() {
     golem_add_external_resources(),
     # List the first level UI elements here 
     fluidPage(
-      h1("novaAPMD")
+      h1("novaAPMD"),
+      mod_my_first_module_ui("my_first_module_ui_1")
     )
   )
 }
