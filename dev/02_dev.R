@@ -7,12 +7,12 @@
 
 ## 2.1 Add modules
 ## 
-golem::add_module( name = "my_first_module" ) # Name of the module
-golem::add_module( name = "my_other_module" ) # Name of the module
+#golem::add_module( name = "my_first_module" ) # Name of the module
+#golem::add_module( name = "my_other_module" ) # Name of the module
 
 ## 2.2 Add dependencies
 
-usethis::use_package( "thinkr" ) # To call each time you need a new package
+#usethis::use_package( "thinkr" ) # To call each time you need a new package
 
 ## 2.3 Add tests
 
@@ -31,8 +31,8 @@ golem::add_css_file( "custom" )
 # 3. Documentation
 
 ## 3.1 Vignette
-usethis::use_vignette("novaAPMD")
-devtools::build_vignettes()
+#usethis::use_vignette("novaAPMD")
+#devtools::build_vignettes()
 
 ## 3.2 Code coverage
 ## You'll need GitHub there
