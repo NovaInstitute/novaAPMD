@@ -36,9 +36,9 @@ golem::add_css_file( "custom" )
 
 ## 3.2 Code coverage
 ## You'll need GitHub there
-usethis::use_github()
-usethis::use_travis()
-usethis::use_appveyor()
+usethis::use_github("NovaInstitute")
+usethis::use_travis("NovaInstitute")
+usethis::use_appveyor("NovaInstitute")
 
 # You're now set! 
 # go to dev/03_deploy.R
